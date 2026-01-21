@@ -186,26 +186,6 @@ Your implementation should achieve:
 - Memory usage: < 500 MB
 - Test accuracy: > 95%
 
-## Submission Guidelines
-
-### File Naming Convention
-**IMPORTANT**: Your submission file must be named using your 9-digit student ID followed by `_pa1.py`
-
-**Format**: `[9-digit-student-id]_pa1.py`  
-**Example**: `700762718_pa1.py`
-
-### Submission Requirements
-1. **Single Python File**: Submit only your completed `700762718_pa1.py` file (replace with your actual student ID)
-2. **File Contents**: Your complete implementation with all required classes and methods
-3. **Student Information**: Include your name and 9-digit student ID in comments at the top of your file:
-   ```python
-   """
-   CS5720 - Assignment 1: Neural Network Fundamentals
-   Student Name: [Your Name]
-   Student ID: 700762718
-   """
-   ```
-
 ### Code Requirements
 - Use only NumPy (no TensorFlow, PyTorch, scikit-learn, etc.)
 - Follow the provided class structure in `starter_code.py`
@@ -214,15 +194,7 @@ Your implementation should achieve:
 - Pass all unit tests in `test_solution.py`
 - Handle all edge cases properly
 
-### Brightspace Submission Instructions
-
-1. **File Name**: Your Python file must be named `700762718_pa1.py` (replace with your actual 9-digit student ID)
-2. **File Format**: Submit only the Python file (.py) - no zip files, reports, or additional materials
-3. **Student ID**: Include your 9-digit student ID as a comment at the top of your file
-4. **Submit to**: CS5720 Assignment 1 submission area in Brightspace
-5. **Deadline**: Check the course schedule in Brightspace for the exact due date
-
-### Before Submission Checklist:
+### Checklist:
 □ Run `python test_solution.py` to verify your implementation passes all tests  
 □ Run `python validate_submission.py 700762696_pa1.py` to check submission format  
 □ Ensure your file follows the naming convention: `[9-digit-ID]_pa1.py`  
@@ -270,14 +242,6 @@ Your implementation should achieve:
 - [Backpropagation Explained](http://cs231n.github.io/optimization-2/)
 - [NumPy Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html)
 - [MNIST Dataset Info](http://yann.lecun.com/exdb/mnist/)
-
-## Self-Directed Learning Approach
-
-This course follows a self-directed learning model. Use the provided materials, test your implementation thoroughly with the testing script, and refer to the neural network resources for guidance. Focus on understanding backpropagation and gradient descent fundamentals.
-
-## Academic Integrity
-
-This is an individual assignment. You may discuss concepts with classmates, but all code must be your own. Do not share implementations or look at others' code.
 
 ---
 
